@@ -25,49 +25,21 @@
       </tags>
   </entry>
   <entry>
-    <title>如何发布博客</title>
-    <url>/2020/05/14/%E5%A6%82%E4%BD%95%E5%8F%91%E5%B8%83%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<blockquote>
-写博客与发布
-经过上述步骤，本地博客和主题设置已经完成，那么接下来就是写博客了。
-
-<p>博客文件需要存放到 <a href="http://xxxx.github.io/source/_posts" target="_blank" rel="noopener">http://xxxx.github.io/source/_posts</a> 文件夹中，在该文件夹下面你可以按照你的博客分类建立一系列的文件夹来管理博客原文件</p>
-<p>1、用 Markdown 写文章</p>
-<p>不管用什么编辑 Markdown 文件，最后生成的 md 文件放到 <a href="http://xxxx.github.io/source/_posts" target="_blank" rel="noopener">http://xxxx.github.io/source/_posts</a> 文件夹或其子文件夹中即可，如：</p>
-<hr>
-<p>title: Hexo+Next配置Blog # 这是标题<br>categories:  # 这里写的分类会自动汇集到 categories 页面上，分类可以多级</p>
-<ul>
-<li>哎折腾 # 一级分类</li>
-<li>技术流 # 二级分类<br>tags:   # 这里写的标签会自动汇集到 tags 页面上</li>
-<li>Hexo # 可配置多个标签，注意格式</li>
-<li>Blog</li>
-</ul>
-<hr>
-<p>​</p>
-<h2 id="This-is-my-first-blog"><a href="#This-is-my-first-blog" class="headerlink" title="This is my first blog!"></a>This is my first blog!</h2><p>文字居中（写博客时）</p>
-<p>在你博客文章中需要居中处加上下面这段代码即可，中间的文字改成你所需要的文字</p>
-<blockquote class="blockquote-center">
-不忘初心，这里可以写多行文字
-</blockquote>
-注意：分类和标签是自动维护的，关键是的文章要按照规定的格式写，如上格式，可以参考
-
-<p>说明：Next 主题会自动生成目录，这也省了不少事。</p>
-<p>2、在本地运行测试</p>
-<p>打开命令行定位到 <a href="http://xxxx.github.io" target="_blank" rel="noopener">http://xxxx.github.io</a> 目录，输入命令：</p>
-<p>hexo s # 这是简写 == hexo server # 启动服务预览<br>3、在浏览器查看效果</p>
-<p>在浏览器中输入 <a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a> 访问本地博客，看看效果吧</p>
-<p>4、安装自动部署发布工具</p>
-<p>这里用到了 hexo-deployer-git，使用如下命令安装：</p>
-<p>npm install hexo-deployer-git –save<br>5、发布到 GitHubPages</p>
-<p>确认在本地上显示无误之后，就可以将 md 转为 静态网页文件，然后发布到 GitHubPages 上去了</p>
-<p>hexo clean #清除缓存 网页正常情况下可以忽略此条命令<br>hexo g #生成静态网页<br>hexo d #开始部署<br>​<br>也可以一次性执行<br>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d<br>如果是第一次部署，终端会提示要求输入用户名和密码。等命令执行完之后，过几分钟打开 woot! 即可看到你的个人博客了。以后要发布新文章，执行上述命令即可</p>
-</blockquote>]]></content>
+    <title>关于搭建个人博客的感想</title>
+    <url>/2020/05/14/%E5%85%B3%E4%BA%8E%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%84%9F%E6%83%B3/</url>
+    <content><![CDATA[<h2 id="最初的想法"><a href="#最初的想法" class="headerlink" title="最初的想法"></a>最初的想法</h2><h3 id="找一个洞"><a href="#找一个洞" class="headerlink" title="找一个洞"></a>找一个洞</h3><p>需要一个让我把头塞进去的地方。最开始是用的微信小程序，学习了一阵后。发现太杂，而且没有达到我的要求。</p>
+<p>个人网站是我一直想自己做的。时间成本、学习成本、经济成本，尤其是经济成本对于现在的我来说是最大的问题。便一直搁置下来。</p>
+<p>无意间看到了Hexo+Git搭建自己的博客。看了一下便开始做了。</p>
+<h3 id="钻了5天"><a href="#钻了5天" class="headerlink" title="钻了5天"></a>钻了5天</h3><p>5月9号发现，一下午便基本搭建完成，然后有一些问题没有完成。又搁置了。<br>5月14号。 今天还是把它完成了。</p>
+<h2 id="现在"><a href="#现在" class="headerlink" title="现在"></a>现在</h2><h3 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h3><p>基本上后面便会一直在这上面。</p>
+]]></content>
       <categories>
-        <category>技术流</category>
+        <category>生活</category>
       </categories>
       <tags>
         <tag>Blog</tag>
         <tag>Hexo</tag>
+        <tag>随想</tag>
       </tags>
   </entry>
   <entry>
@@ -121,26 +93,55 @@
 <p>scaffolds目录下，是新建页面的模板，执行新建命令时，是根据这里的模板页来完成的，所以可以在这里根据你自己的需求添加一些默认值。</p>
 ]]></content>
       <categories>
-        <category>技术流</category>
+        <category>技术</category>
+        <category>Hexo</category>
       </categories>
       <tags>
-        <tag>hexo</tag>
-        <tag>blog</tag>
+        <tag>Blog</tag>
+        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
-    <title>Hexo+Next配置Blog</title>
-    <url>/2020/05/14/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<blockquote class="blockquote-center">
-不忘初心，这里可以写多行文字
-不忘初心，这里可以写多行文字
-<br />
+    <title>如何发布博客</title>
+    <url>/2020/05/14/%E5%A6%82%E4%BD%95%E5%8F%91%E5%B8%83%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<blockquote>
+写博客与发布
+经过上述步骤，本地博客和主题设置已经完成，那么接下来就是写博客了。
+
+<p>博客文件需要存放到 <a href="http://xxxx.github.io/source/_posts" target="_blank" rel="noopener">http://xxxx.github.io/source/_posts</a> 文件夹中，在该文件夹下面你可以按照你的博客分类建立一系列的文件夹来管理博客原文件</p>
+<p>1、用 Markdown 写文章</p>
+<p>不管用什么编辑 Markdown 文件，最后生成的 md 文件放到 <a href="http://xxxx.github.io/source/_posts" target="_blank" rel="noopener">http://xxxx.github.io/source/_posts</a> 文件夹或其子文件夹中即可，如：</p>
+<hr>
+<p>title: Hexo+Next配置Blog # 这是标题<br>categories:  # 这里写的分类会自动汇集到 categories 页面上，分类可以多级</p>
+<ul>
+<li>哎折腾 # 一级分类</li>
+<li>技术流 # 二级分类<br>tags:   # 这里写的标签会自动汇集到 tags 页面上</li>
+<li>Hexo # 可配置多个标签，注意格式</li>
+<li>Blog</li>
+</ul>
+<hr>
+<p>​</p>
+<h2 id="This-is-my-first-blog"><a href="#This-is-my-first-blog" class="headerlink" title="This is my first blog!"></a>This is my first blog!</h2><p>文字居中（写博客时）</p>
+<p>在你博客文章中需要居中处加上下面这段代码即可，中间的文字改成你所需要的文字</p>
+<blockquote class="blockquote-center">
 不忘初心，这里可以写多行文字
 </blockquote>
-​
-## This is my first blog!]]></content>
+注意：分类和标签是自动维护的，关键是的文章要按照规定的格式写，如上格式，可以参考
+
+<p>说明：Next 主题会自动生成目录，这也省了不少事。</p>
+<p>2、在本地运行测试</p>
+<p>打开命令行定位到 <a href="http://xxxx.github.io" target="_blank" rel="noopener">http://xxxx.github.io</a> 目录，输入命令：</p>
+<p>hexo s # 这是简写 == hexo server # 启动服务预览<br>3、在浏览器查看效果</p>
+<p>在浏览器中输入 <a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a> 访问本地博客，看看效果吧</p>
+<p>4、安装自动部署发布工具</p>
+<p>这里用到了 hexo-deployer-git，使用如下命令安装：</p>
+<p>npm install hexo-deployer-git –save<br>5、发布到 GitHubPages</p>
+<p>确认在本地上显示无误之后，就可以将 md 转为 静态网页文件，然后发布到 GitHubPages 上去了</p>
+<p>hexo clean #清除缓存 网页正常情况下可以忽略此条命令<br>hexo g #生成静态网页<br>hexo d #开始部署<br>​<br>也可以一次性执行<br>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d<br>如果是第一次部署，终端会提示要求输入用户名和密码。等命令执行完之后，过几分钟打开 woot! 即可看到你的个人博客了。以后要发布新文章，执行上述命令即可</p>
+</blockquote>]]></content>
       <categories>
-        <category>测试</category>
+        <category>技术</category>
+        <category>Hexo</category>
       </categories>
       <tags>
         <tag>Blog</tag>
