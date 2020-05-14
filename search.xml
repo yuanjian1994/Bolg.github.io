@@ -1,22 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hexo+Next配置Blog</title>
-    <url>/2020/05/14/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<blockquote class="blockquote-center">
-不忘初心，这里可以写多行文字
-不忘初心，这里可以写多行文字
-<br />
-不忘初心，这里可以写多行文字
-</blockquote>
-​
-## This is my first blog!]]></content>
+    <title>Hello World</title>
+    <url>/2020/05/14/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
       <categories>
-        <category>哎折腾</category>
         <category>技术流</category>
       </categories>
       <tags>
-        <tag>Hexo</tag>
         <tag>Blog</tag>
       </tags>
   </entry>
@@ -62,32 +66,85 @@
         <category>技术流</category>
       </categories>
       <tags>
-        <tag>Hexo</tag>
         <tag>Blog</tag>
+        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2020/05/14/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+    <title>标签与分类</title>
+    <url>/2020/05/14/%E6%A0%87%E7%AD%BE%E4%B8%8E%E5%88%86%E7%B1%BB/</url>
+    <content><![CDATA[<p>1、创建“分类”选项<br>1.1 生成“分类”页并添加tpye属性<br>打开命令行，进入博客所在文件夹。执行命令</p>
+<p>$ hexo new page categories<br>成功后会提示：</p>
+<p>INFO  Created: ~/Documents/blog/source/categories/index.md<br>根据上面的路径，找到index.md这个文件，打开后默认内容是这样的：</p>
+<hr>
+<p>title: 文章分类<br>date: 2017-05-27 13:47:40</p>
+<hr>
+<p>添加type: “categories”到内容中，添加后是这样的：</p>
+<hr>
+<p>title: 文章分类<br>date: 2017-05-27 13:47:40<br>type: “categories”</p>
+<hr>
+<p>保存并关闭文件。</p>
+<p>1.2 给文章添加“categories”属性<br>打开需要添加分类的文章，为其添加categories属性。下方的categories: web前端表示添加这篇文章到“web前端”这个分类。注意：hexo一篇文章只能属于一个分类，也就是说如果在“- web前端”下方添加“-xxx”，hexo不会产生两个分类，而是把分类嵌套（即该文章属于 “- web前端”下的 “-xxx ”分类）。</p>
+<hr>
+<p>title: jQuery对表单的操作及更多应用<br>date: 2017-05-26 12:12:57<br>categories: </p>
+<ul>
+<li>web前端</li>
+</ul>
+<hr>
+<p>至此，成功给文章添加分类，点击首页的“分类”可以看到该分类下的所有文章。当然，只有添加了categories: xxx的文章才会被收录到首页的“分类”中。</p>
+<p>2、创建“标签”选项<br>2.1 生成“标签”页并添加tpye属性<br>打开命令行，进入博客所在文件夹。执行命令</p>
+<p>$ hexo new page tags<br>成功后会提示：</p>
+<p>INFO  Created: ~/Documents/blog/source/tags/index.md<br>根据上面的路径，找到index.md这个文件，打开后默认内容是这样的：</p>
+<hr>
+<p>title: 标签<br>date: 2017-05-27 14:22:08</p>
+<hr>
+<p>添加type: “tags”到内容中，添加后是这样的：</p>
+<hr>
+<p>title: 文章分类<br>date: 2017-05-27 13:47:40<br>type: “tags”</p>
+<hr>
+<p>保存并关闭文件。</p>
+<p>2.2 给文章添加“tags”属性<br>打开需要添加标签的文章，为其添加tags属性。下方的tags:下方的- jQuery - 表格</p>
+<ul>
+<li>表单验证就是这篇文章的标签了</li>
+</ul>
+<hr>
+<p>title: jQuery对表单的操作及更多应用<br>date: 2017-05-26 12:12:57<br>categories: </p>
+<ul>
+<li>web前端<br>tags:</li>
+<li>jQuery</li>
+<li>表格</li>
+<li>表单验证</li>
+</ul>
+<hr>
+<p>至此，成功给文章添加分类，点击首页的“标签”可以看到该标签下的所有文章。当然，只有添加了tags: xxx的文章才会被收录到首页的“标签”中。</p>
+<p>我们可以打开scaffolds/post.md文件，在tages:上面加入categories:,保存后，之后执行hexo new 文章名命令生成的文件，页面里就有categories:项了。</p>
+<p>scaffolds目录下，是新建页面的模板，执行新建命令时，是根据这里的模板页来完成的，所以可以在这里根据你自己的需求添加一些默认值。</p>
 ]]></content>
       <categories>
         <category>技术流</category>
       </categories>
       <tags>
+        <tag>hexo</tag>
+        <tag>blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo+Next配置Blog</title>
+    <url>/2020/05/14/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<blockquote class="blockquote-center">
+不忘初心，这里可以写多行文字
+不忘初心，这里可以写多行文字
+<br />
+不忘初心，这里可以写多行文字
+</blockquote>
+​
+## This is my first blog!]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
+      <tags>
         <tag>Blog</tag>
+        <tag>Hexo</tag>
       </tags>
   </entry>
 </search>
